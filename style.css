@@ -1,7 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-color: rgb(111, 163, 246);
+    background-color: rgb(255, 91, 91);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
@@ -18,7 +18,7 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(7, 49, 98);
+    background-color: rgb(255, 0, 0);
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -28,7 +28,7 @@ body {
     text-align: center;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: rgb(94, 138, 209);
+    background-color: rgb(255, 221, 0);
     padding: 6px;
     margin: 40px;
     border-radius: 40px;
@@ -38,7 +38,7 @@ body {
 .noticia {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgb(72, 155, 243);
+    background-color: rgb(255, 0, 0);
     border: 4px solid rgb(255, 255, 255);
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 footer {
-    background-color: rgb(7, 49, 98);
+    background-color: rgb(255, 0, 0);
     padding: 10px;
     text-align: center;
     color: white;
@@ -59,11 +59,11 @@ footer {
     position: sticky;
     top: 0px;
     background-color: rgb(255, 221, 0);
-    color: rgb(7, 49, 98);
+    color: rgb(0, 0, 0);
     padding: 12px;
     font-weight: bold;
     text-align: center;
-    border-bottom: 4px solid rgb(7, 49, 98);
+    border-bottom: 4px solid rgb(0, 0, 0);
 }
 
     
@@ -72,8 +72,8 @@ footer {
     margin: 40px;
     padding: 20px;
     border-radius: 40px;
-    background: rgb(72, 155, 243);
-    color: black;
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
@@ -124,11 +124,12 @@ footer {
 .cards{
     width: 10px;
     padding: 15px;
-    color: black;
+    color: rgb(0, 0, 0);
     display: flex;
     flex-direction: column;
     gap: 0px;
     flex-wrap: wrap;
+    border-radius: 20px;
 }
 
 
